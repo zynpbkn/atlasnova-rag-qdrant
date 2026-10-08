@@ -1,0 +1,15 @@
+langchain>=1.0,<2.0
+langgraph>=1.0,<2.0
+
+langchain-openrouter
+langchain-openai
+
+langchain-qdrant
+qdrant-client
+
+langchain-community
+langchain-text-splitters
+
+pypdf
+python-dotenv
+langchain-google-genai
