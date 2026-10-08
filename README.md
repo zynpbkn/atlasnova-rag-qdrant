@@ -1,8 +1,3 @@
-Süper, çıktı sayılarını da tam olarak seninkiyle eşitleyelim. `README.md` içindeki örnek ingest çıktısını ve sayfa/chunk sayılarını seninkiyle (20 sayfa, 75 chunk) güncelledim.
-
-Bu yeni içeriği VS Code'daki `README.md` dosyasının içine yapıştırıp kaydedebilirsin:
-
-```markdown
 # AtlasNova HR – Agentic RAG Assistant
 
 AtlasNova Teknoloji ve Danışmanlık Ltd. Şti. için geliştirilmiş, çalışanların İnsan Kaynakları politikaları ve şirket uygulamaları hakkında doğal dilde soru sorabildiği bir Agentic RAG (Retrieval-Augmented Generation) uygulamasıdır.
@@ -50,9 +45,7 @@ atlasnova-rag-qdrant/
 ├── ingest.py
 └── rag.py
 
-```
-
-> **Not:** `.env`, PDF dosyası ve `qdrant_db/` veritabanı klasörü `.gitignore` içerisinde tutulur ve GitHub'a gönderilmez.
+``
 
 ## Kurulum
 
@@ -252,12 +245,5 @@ Employee Handbook (PDF)
 * **Güvenlik:** API anahtarları sadece `.env` dosyasında tutulmalı, kesinlikle Git deposuna eklenmemelidir.
 
 ```
-
-Yapıştırdıktan sonra terminalden aşağıdaki komutları çalıştırarak güncellemeyi GitHub'a gönderebilirsin:
-
-```bash
-git add README.md
-git commit -m "docs: update README with exact ingestion metrics"
-git push origin main
 
 ```
